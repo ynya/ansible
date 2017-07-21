@@ -1,5 +1,5 @@
 ---
-- name: NTOP
+- name: locate
   hosts: all
   remote_user: root
   # remote_user: user
@@ -7,8 +7,8 @@
   # become_method: sudo
 
   tasks:
-  - name: installation de ntop
-    apt: name=ntop state=present
+  - name: installation de locate
+    apt: name=locate state=present
     
     
     
