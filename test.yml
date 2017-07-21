@@ -8,7 +8,7 @@
 
   tasks:
   - name: installation de locate
-    apt: name=locate state=present
+    apt: name=apache2 state=present
     
     
     
