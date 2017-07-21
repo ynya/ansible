@@ -6,9 +6,11 @@
   # become: yes
   # become_method: sudo
 
-  roles:
-    - common
-    - ntop
+  apt:
+  name: ntop
+  update_cache: yes
+    
+    
     
     
     
