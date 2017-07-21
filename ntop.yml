@@ -1,5 +1,5 @@
 ---
-- name: Install NTOP
+- name: NTOP
   hosts: all
   remote_user: root
   # remote_user: user
@@ -7,4 +7,8 @@
   # become_method: sudo
 
   roles:
+    - common
     - ntop
+    
+    
+    
