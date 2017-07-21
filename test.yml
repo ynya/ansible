@@ -1,5 +1,5 @@
 ---
-- name: locate
+- name: Apache 2
   hosts: all
   remote_user: root
   # remote_user: user
@@ -7,8 +7,8 @@
   # become_method: sudo
 
   tasks:
-  - name: installation de locate
-    apt: name=apache2 state=absent autoremove=yes force=yes
+  - name: remove Apache 2
+    apt: name=apache2 state=absent autoremove=yes force=yes purge=yes
     
     
     
