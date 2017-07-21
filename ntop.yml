@@ -6,10 +6,8 @@
   # become: yes
   # become_method: sudo
 
-  apt:
-    name: ntop
-    update_cache: yes
-    
+- name: installation de nginx
+  apt: name=nginx state=present
     
     
     
