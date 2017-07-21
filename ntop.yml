@@ -6,7 +6,7 @@
   # become: yes
   # become_method: sudo
 
-- name: installation de nginx
+- name: installation de ntop
   apt: name=ntop state=present
     
     
